@@ -25,15 +25,15 @@
 </head>
 <body>
     <div id="img-store">
-        <img src="./img/라면가게.png" width="300px" height="300px">
+        <img src="../image/라면가게.png" width="300px" height="300px">
     </div>
     <div id="img-boss">
-    <img src="./img/점주.png" width="300px" height="500px">
+    <img src="../image/점주.png" width="300px" height="500px">
     </div>
     
     <div id="main">
     <h2>라면 먹고 가세요</h2>
-    <button type="button" class="btn btn-outline-danger">주문하기</button>
+    <button type="button" class="btn btn-outline-danger"><a th:href="@{/order}">주문하기</a></button>
     </div>
 </body>
 </html>
